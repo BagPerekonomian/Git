@@ -57,7 +57,7 @@
                                                                                 }
                                                                                 
                                                                                 header ul li a {
-                                                                                    padding: 10px 15px;
+                                                                                    padding: 20px 25px;
                                                                                     display: inline-block;
                                                                                     color: black;
                                                                                     /* box-sizing: border-box; */
@@ -105,7 +105,8 @@
                                                                                     color: #148F77;
                                                                                 }
                                                                                 
-                                                                                .berita {
+                                                                                .berita,
+                                                                                .sort-gallery {
                                                                                     max-width: 1200px;
                                                                                     /* border: 1px solid; */
                                                                                     margin: 5px auto;
@@ -131,9 +132,15 @@
                                                                                     /* animation: fadeOut; */
                                                                                 }
                                                                                 
+                                                                                .konten h6 {
+                                                                                    text-align: right;
+                                                                                    margin-right: 5px;
+                                                                                    margin-top: 5px;
+                                                                                }
+                                                                                
                                                                                 .konten h3 {
                                                                                     /* margin: 10px 15  px; */
-                                                                                    padding: 10px;
+                                                                                    padding: 5px;
                                                                                     /* color: #148F77; */
                                                                                     /* box-sizing: border-box; */
                                                                                 }
@@ -154,6 +161,11 @@
                                                                                 .konten p a:hover {
                                                                                     color: #148F77;
                                                                                 }
+                                                                                /* .sort-gallery {
+                                                                                    max-width: 1200px;
+                                                                                    /* border: 1px solid; */
+                                                                                /* margin: 5px auto; 
+                                                                                } */
                                                                                 /* halaman about */
                                                                                 
                                                                                 .visi,
@@ -211,7 +223,8 @@
                                                                                 /* responsive */
                                                                                 
                                                                                 @media(min-width: 600px) {
-                                                                                    .berita {
+                                                                                    .berita,
+                                                                                    .sort-gallery {
                                                                                         display: flex;
                                                                                         justify-content: space-between;
                                                                                     }
